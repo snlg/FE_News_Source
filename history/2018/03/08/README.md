@@ -16,3 +16,4 @@
 ## 工具
 
 - [程序员偷懒指南 -- 用chrome插件实现前端资讯推送](https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/)：Chrome 扩展确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。作者使用 chrome 插件实现前端资讯推送，可以体验一波。
+test
