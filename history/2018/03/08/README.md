@@ -1,9 +1,10 @@
 
-> # Daily-Front-End-News
+> # Xiaodian-Daily-Front-End-News
 
 ## 前端 
 
 - [前端每周清单第 53 期](https://zhuanlan.zhihu.com/p/34320651?group_id=954785550436106240)：Go 语言的 WebAssembly 架构；Flutter beta 1 发布再见，PhantomJS；Google 发布机器学习速成课程；深入探究 ES2018 与 ES2019；React Suspense 演练；你或许不知道的 CSS 技巧；Electron 应用自动更新方案设计；前端案例分析；Didact Fiber: Incremental reconciliation；重构 Redux；从 JS 到 DOM 的双向追踪等。
+- [危险的 target="_blank" 与 “opener”](https://knownsec-fed.com/2018-03-01-wei-xian-de-targetblank-yu-opener/)：在 react 中使用 a 标签，经常看到会添加 rel="noopener noreferrer nofollow"，这是有原因的。
 
 ## 浏览器
 
@@ -13,7 +14,14 @@
 
 - [最简单的垂直水平居中写法](https://twitter.com/bharatramnani94/status/970906365056053249)：容器元素设为 flex 布局，子元素只要写 margin: auto 即可。
 
-## 工具
+## Node 
 
-- [程序员偷懒指南 -- 用chrome插件实现前端资讯推送](https://fengshangwuqi.github.io/fswq-blog/2018-03-08-cheng-xu-yuan-tou-lan-zhi-nan-shi-yong-chrome-cha-jian-shi-xian-qian-duan-zi-xun-tui-song/)：Chrome 扩展确实是一个好东西，使用简单的 HTML，CSS 和 JavaScript 就可为浏览器新增我们想要的功能，并且，使用 chrome 扩展开发，不用担心跨域等消息传递问题，还有讨厌的兼容性问题，结合操作用户页面 dom，开发的开心度可谓是可观的。作者使用 chrome 插件实现前端资讯推送，可以体验一波。
-test
+- [npm ci 比 npm install 更快捷，更可靠](https://dev.to/aussieguy0/reading-files-in-a-chrome-extension--2c03)：npm ci 与 npm install 的主要区别是：npm ci 要求项目必须包含一个 package-lock.json 或 npm-shrinkwrap.json 文件；package-lock.json 中依赖关系与 package.json 若不匹配，npm ci 会报错并退出；npm ci 不能安装单独的 package；npm ci 会先删除 node_modules 再安装。
+
+## 机器学习 
+
+- [机器学习能给我们带来什么](https://www.youtube.com/watch?v=3vzTk7CoI3k)：机器学习能给我们带来什么：提供一个缩短编程时间的工具；自定义自己的产品，使其更适合特定的用户群体；解决自己作为编程人员，不知道如何用人工方法解决的问题；改变思考学习的方式；
+
+## 软技能 
+
+- [当工作多年后，个人经历也不能代表一切](https://dev.to/jtvanwage/experience-isnt-enough--o4b)：你是否偶尔问过自己这些问题：个人有成长么；从错误中有汲取教训么；是否尝试过使用新的方式挑战自己；是否把精力投入到学习新知识。如果你发觉自己一直停滞不前，那么，就应该保持谦恭，并提供持续改进的自我驱动；
